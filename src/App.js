@@ -11,7 +11,7 @@ function App() {
 
   const sendPaymentRequest = () => {
     setMessage("")
-    fetch("http://localhost:8081/pay", {
+    fetch("http://localhost:8080/pay", {
       method: "POST",
       headers: {
         'Content-Type': 'application/json'
