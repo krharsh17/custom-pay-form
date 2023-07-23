@@ -54,12 +54,13 @@ function App() {
           <input id="amount" defaultValue={"$" + amount} disabled />
         </div>
         <div>
-          <button className='submitButton' onClick={sendPaymentRequest}>Pay</button>
-        </div>
-        <div>
-          {message}
+          <button className='submitButton' onClick={sendPaymentRequest}>Pay Now</button>
         </div>
       </div>
+
+      <div className="result">
+          {message}
+        </div>
     </div>
   );
 }
