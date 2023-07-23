@@ -36,6 +36,7 @@ function App() {
   return (
     <div className="App">
       <div className="mainContainer">
+        <div className='title'>Sample Form</div>
         <div className="inputGroup">
           <label htmlFor="cardNumber">Enter Card Number</label>
           <input id="cardNumber" type="number" min={1000000000000000} max={9999999999999999} value={cardNumber} onChange={ev => setCardNumber(ev.target.value)} />
